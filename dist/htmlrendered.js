@@ -1,6 +1,7 @@
 const path = require ("path");
 const fs = require ("fs");
-const templatesDir = path.resolve(__dirname, "./html_templates");
+
+const templatesDir = path.resolve(__dirname, "./html_templates/");
 
 const render = employees => {
   const html = [];
